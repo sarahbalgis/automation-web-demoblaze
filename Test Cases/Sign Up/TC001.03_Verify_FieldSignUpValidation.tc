@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that users can't register without filling in one of the username or password fields.
+
+Steps:
+1. Open a browser and access https://demoblaze.com/index.html.
+2. Select the &quot;Sign Up&quot; menu
+3. The username and password fields are left blank (not filled in)
+4. Click the Sign Up button
+
+Expected Result:
+Alert &quot;Please fill out Username and Password.&quot; appears after clicking the sign up button when username or password is not filled in.</description>
+   <name>TC001.03_Verify_FieldSignUpValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>83658b39-bdca-47c5-abde-c92aefc30e5f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0c672b62-16fb-4f1c-8cd0-e1cde0d1396a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>db157b88-aa35-4655-b480-5002bfbff726</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0c672b62-16fb-4f1c-8cd0-e1cde0d1396a</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>db157b88-aa35-4655-b480-5002bfbff726</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
