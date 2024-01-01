@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Authentication/Login/btn_Login'))
 
 WebUI.delay(2)
 
-String expectedText = 'Welcome ' + username
+String expectedText = 'Welcome ' + GlobalVariable.username
 
 String actualText = WebUI.getText(findTestObject('Authentication/Login/txt_WelcomeUser'))
 

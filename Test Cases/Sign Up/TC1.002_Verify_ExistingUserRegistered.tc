@@ -18,7 +18,7 @@
       <variableId>9462285f-41d8-4edd-adbc-9a42c6018318</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'pizynewaccount'</defaultValue>
+      <defaultValue>'ezpizynewaccount'</defaultValue>
       <description></description>
       <id>f44f53ad-145d-4c20-9f56-42ddc0d3908a</id>
       <masked>false</masked>

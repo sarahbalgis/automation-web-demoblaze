@@ -35,8 +35,6 @@ WebUI.click(findTestObject('Authentication/Sign Up/btn_SignUp'))
 
 WebUI.waitForAlert(10)
 
-WebUI.takeScreenshot()
-
 String alertText = WebUI.getAlertText()
 
 WebUI.verifyEqual(alertText, 'Please fill out Username and Password.')

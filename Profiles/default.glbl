@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'pizynewaccount'</initValue>
+      <initValue>'ezpizynewaccount'</initValue>
       <name>username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
